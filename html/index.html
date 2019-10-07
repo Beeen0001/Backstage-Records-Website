@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styles/index.css">
+    <!-- <link rel="icon" href="../css/images/icons/FILENAMEHERE"> -->
+    <title>Backstage Records</title>
+  </head>
+  <body>
+
+    <!-- Menu HTML -->
+
+    <header>
+      <span class="open-button" onclick="openMenu()">&#9776;</span>
+      <div id="menu" class="overlay">
+        <a href="javascript:void(0)" class="close-button" onclick="closeMenu()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">Home</a>
+          <a href="#">Artists</a>
+          <a href="#">Releases</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Artist Portal</a>
+        </div>
+        <p id="copyright-notice">© 2019 Backstage Records All Rights Reserved</p>
+      </div>
+    </header>
+
+    <!-- Background -->
+
+    <main>
+      <div class="background-logo-index"></div>
+    </main>
+
+    <!-- Menu JavaScript -->
+
+    <script>
+      function openMenu() {
+        document.getElementById("menu").style.width = "100%";
+      }
+
+      function closeMenu() {
+        document.getElementById("menu").style.width = "0%";
+      }
+    </script>
+
+  </body>
+</html>

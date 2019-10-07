@@ -1,0 +1,28 @@
+{
+  "name": "backstage-records-website",
+  "version": "1.0.0",
+  "description": "Backstage Records Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beeen0001/Backstage-Records-Website.git"
+  },
+  "keywords": [
+    "Backstage",
+    "Records",
+    "Sydney",
+    "Australia"
+  ],
+  "author": "Ben Griffiths",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Beeen0001/Backstage-Records-Website/issues"
+  },
+  "homepage": "https://github.com/Beeen0001/Backstage-Records-Website#readme",
+  "devDependencies": {
+    "htmlhint": "^0.11.0"
+  }
+}

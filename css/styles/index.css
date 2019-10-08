@@ -27,6 +27,27 @@ html, body, main {
   margin: 0;
 }
 
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
 /* Menu */
 /* Menu - Open Button */
 .menu-open {
@@ -44,7 +65,7 @@ html, body, main {
 
 /* Menu - Overlay */
 .menu-overlay {
-  height: 0%;
+  height: 100%;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -55,7 +76,7 @@ html, body, main {
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
-  transition: 0.4s;
+  display: none;
 }
 
 .menu-overlay a {

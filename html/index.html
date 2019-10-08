@@ -11,10 +11,14 @@
 
     <!-- Menu - HTML -->
     <header>
-      <span class="menu-open-button" onclick="openMenu()">&#9776;</span>
+      <!-- Menu - Open Button -->
+      <span class="menu-open" onclick="openMenu()">&#9776;</span>
+      <!-- Menu - Overlay -->
       <div id="menu" class="menu-overlay">
-        <a href="javascript:void(0)" class="menu-close-button" onclick="closeMenu()">&times;</a>
-        <div class="menu-overlay-content">
+        <!-- Menu - Close Button -->
+        <a href="javascript:void(0)" class="menu-close" onclick="closeMenu()">&times;</a>
+        <!-- Menu - Navigation -->
+        <div class="menu-navigation">
           <a href="index.html" id="menu-home" >Home</a>
           <a href="artists.html">Artists</a>
           <a href="releases.html">Releases</a>
@@ -22,6 +26,7 @@
           <a href="contact.html">Contact</a>
           <a href="artistportal-login.html">Artist Portal</a>
         </div>
+        <!-- Menu - Copyright Notice -->
         <p id="menu-copyright-notice">© 2019 Backstage Records All Rights Reserved</p>
       </div>
     </header>

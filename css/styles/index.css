@@ -29,7 +29,7 @@ html, body, main {
 
 /* Menu */
 /* Menu - Open Button */
-.menu-open-button {
+.menu-open {
   font-size: 30px;
   color: #ffffff;
   cursor: pointer;
@@ -38,7 +38,7 @@ html, body, main {
   right: 30px;
 }
 
-.menu-open-button:hover {
+.menu-open:hover {
   color: #eeff41;
 }
 
@@ -71,15 +71,15 @@ html, body, main {
   color: #eeff41;
 }
 
-.menu-overlay .menu-close-button {
+.menu-overlay .menu-close {
   position: absolute;
   top: 20px;
   right: 45px;
   font-size: 60px;
 }
 
-/* Menu - Overlay Content */
-.menu-overlay-content {
+/* Menu - Navigation */
+.menu-navigation {
   font-family: "proxima-nova-bold";
   position: relative;
   top: 20%;

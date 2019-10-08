@@ -4,37 +4,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/styles/index.css">
-    <!-- <link rel="icon" href="../css/images/icons/FILENAMEHERE"> -->
+    <link rel="icon" href="../css/images/icons/BR-Favicon.png">
     <title>Backstage Records</title>
   </head>
   <body>
 
-    <!-- Menu HTML -->
-
+    <!-- Menu - HTML -->
     <header>
-      <span class="open-button" onclick="openMenu()">&#9776;</span>
-      <div id="menu" class="overlay">
-        <a href="javascript:void(0)" class="close-button" onclick="closeMenu()">&times;</a>
-        <div class="overlay-content">
-          <a href="#">Home</a>
-          <a href="#">Artists</a>
-          <a href="#">Releases</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Artist Portal</a>
+      <span class="menu-open-button" onclick="openMenu()">&#9776;</span>
+      <div id="menu" class="menu-overlay">
+        <a href="javascript:void(0)" class="menu-close-button" onclick="closeMenu()">&times;</a>
+        <div class="menu-overlay-content">
+          <a href="index.html" id="menu-home" >Home</a>
+          <a href="artists.html">Artists</a>
+          <a href="releases.html">Releases</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="artistportal-login.html">Artist Portal</a>
         </div>
-        <p id="copyright-notice">© 2019 Backstage Records All Rights Reserved</p>
+        <p id="menu-copyright-notice">© 2019 Backstage Records All Rights Reserved</p>
       </div>
     </header>
 
     <!-- Background -->
-
     <main>
       <div class="background-logo-index"></div>
     </main>
 
-    <!-- Menu JavaScript -->
-
+    <!-- Menu - JavaScript -->
     <script>
       function openMenu() {
         document.getElementById("menu").style.width = "100%";

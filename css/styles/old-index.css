@@ -1,4 +1,3 @@
-/* Font Imports */
 @font-face {
     font-family: "proxima-nova-regular";
     src: url("../fonts/proxima-nova/proxima-nova-regular/proximanova-regular-webfont.woff2") format("woff2"),
@@ -16,7 +15,6 @@
     font-style: normal;
 }
 
-/* Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +26,7 @@ html, body, main {
 }
 
 /* Menu */
+
 /* Menu - Open Button */
 .menu-open-button {
   font-size: 30px;
@@ -43,6 +42,7 @@ html, body, main {
 }
 
 /* Menu - Overlay */
+
 .menu-overlay {
   height: 100%;
   width: 0;
@@ -50,6 +50,8 @@ html, body, main {
   z-index: 1;
   top: 0;
   left: 0;
+  /* background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); */
   background-image: url(../images/backgrounds/sydney-harbour/Sydney-Harbour-Menu-Edited.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -78,7 +80,6 @@ html, body, main {
   font-size: 60px;
 }
 
-/* Menu - Overlay Content */
 .menu-overlay-content {
   font-family: "proxima-nova-bold";
   position: relative;
@@ -88,12 +89,6 @@ html, body, main {
   margin-top: 30px;
 }
 
-/* Menu - Current Page Highlight */
-#menu-home {
-  color: #eeff41;
-}
-
-/* Menu - Copyright Notice */
 #menu-copyright-notice {
   font-family: "proxima-nova-regular";
   font-size: 16px;
@@ -104,7 +99,12 @@ html, body, main {
   bottom: 20px;
 }
 
+#menu-home {
+  color: #eeff41;
+}
+
 /* Background */
+
 .background-logo-index {
   background-image: url(../images/logo/BR-Large-Logo-Edited.png), url(../images/backgrounds/sydney-harbour/Sydney-Harbour-Edited.jpg);
   background-position: center;

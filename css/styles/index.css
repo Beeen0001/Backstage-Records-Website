@@ -49,7 +49,7 @@ html, body, main {
 }
 
 /* Background */
-.background-logo-index {
+.background-logo-grayscale {
   background-image: url(../images/logo/BR-Large-Logo-Edited.png), url(../images/backgrounds/sydney-harbour/Sydney-Harbour-Edited.jpg);
   background-position: center;
   background-repeat: no-repeat;

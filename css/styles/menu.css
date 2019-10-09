@@ -84,6 +84,27 @@
   animation: fadeIn 0.3s;
 }
 
+/* Menu - Current Page Highlight */
+#home {
+  color: #eeff41;
+}
+
+#artists {
+  color: #eeff41;
+}
+
+#releases {
+  color: #eeff41;
+}
+
+#about {
+  color: #eeff41;
+}
+
+#contact {
+  color: #eeff41;
+}
+
 /* Menu - Background */
 .background {
   top: 0px;

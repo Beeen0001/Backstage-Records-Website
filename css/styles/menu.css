@@ -81,6 +81,7 @@
 
 .change-navigation {
   display: block;
+  animation: fadeIn 0.3s;
 }
 
 /* Menu - Background */
